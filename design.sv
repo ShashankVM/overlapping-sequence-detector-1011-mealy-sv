@@ -21,8 +21,8 @@
        S1 : if (seq_in) next = S1; else next = S2;     
        S2 : if (seq_in) next = S3; else next = S0;
        S3 : if (seq_in) next = S1; else next = S2; 
-   endcase  
-   $monitor(state);
+     endcase  
+     $monitor(state);
    end: set_next_state 
 
    // Registered output logic
