@@ -1,3 +1,3 @@
 # sequence-detector-1011-sv
 
-Mealy Finite State Machine overlapping sequence detector of the sequence "1011", designed in SystemVerilog.
+Mealy Finite State Machine type overlapping sequence detector of "1011" in SystemVerilog.
